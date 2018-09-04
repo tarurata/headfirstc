@@ -10,7 +10,7 @@ int main()
     puts("data=[");
     while (scanf("%f,%f,%79[^\n]", &latitude, &longitude, info) ==3) {
         if (started)
-            printf(",\n"):
+            printf(",\n");
         else
             started = 1;
         if ((latitude < -90.0) || (latitude > 90.0)) {
